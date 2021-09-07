@@ -10,7 +10,7 @@ name: 徐飞
 title: AI算法工程师
 email: rootby@126.com
 website: https://eyesho.github.io/
-
+wechat: eyesho
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -25,15 +25,15 @@ instagram_username: frederickshyu
 #linkedin_username: jameswgrant
 #xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: /channel/UClHck1qET0QL9m-0wWMFaeg
+#youtube_username: UClHck1qET0QL9m-0wWMFaeg
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: youtube
+  icon: youtube-square
+  url: https://www.youtube.com/channel/UClHck1qET0QL9m-0wWMFaeg
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -57,7 +57,7 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+        link: github.com/eyesho/rubot
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
