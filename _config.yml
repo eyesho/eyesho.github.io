@@ -32,7 +32,7 @@ instagram_username: frederickshyu
 # Additional icon links
 additional_links:
 - title: youtube
-  icon: fab fa-twitter
+  icon: fab fa-youtube
   url: https://www.youtube.com/channel/UClHck1qET0QL9m-0wWMFaeg
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
