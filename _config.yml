@@ -6,11 +6,12 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
+wechat: eyesho
 name: 徐飞
 title: AI算法工程师
 email: rootby@126.com
-websit: https://eyesho.github.io/
-wechat: eyesho
+website: https://eyesho.github.io/
+
 # Dark Mode (true/false/never)
 darkmode: false
 
