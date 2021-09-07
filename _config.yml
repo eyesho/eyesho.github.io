@@ -25,7 +25,7 @@ instagram_username: frederickshyu
 #linkedin_username: jameswgrant
 #xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: channel/UClHck1qET0QL9m-0wWMFaeg
+youtube_username: /channel/UClHck1qET0QL9m-0wWMFaeg
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello，我是徐飞，我是
+  Hello，
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
