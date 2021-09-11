@@ -93,8 +93,7 @@ content:
         quote: >
           Established in 1948, USTL
         description: | # this will include new lines to allow paragraphs
-        waiting for update 
-        
+        waiting for update
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
