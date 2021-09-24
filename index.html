@@ -95,22 +95,11 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  margin:0 auto;
+  display:block;
 }
 	
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 </style>
 <table cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" class="column">
     <tbody >
@@ -984,11 +973,7 @@ Your browser does not support the video tag.
 </td></tr>
 </table>
 	
-	
+<button class="button" onclick="window.print()">导出pdf</button>
+
 </body>
-<div class="container">
-  <div class="center">
-	<button class="button" onclick="window.print()">导出pdf</button>
-  </div>
-</div>
 </html>
