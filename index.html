@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fei Xu - Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100 hidden md:block">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center text-xl font-bold tracking-tighter text-blue-600">
+                    FX.
+                </div>
+                <div class="hidden sm:flex sm:space-x-8 text-sm font-medium text-gray-500">
+                    <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                    <a href="#education" class="hover:text-blue-600 transition-colors">Education</a>
+                    <a href="#experience" class="hover:text-blue-600 transition-colors">Experience</a>
+                    <a href="#publications" class="hover:text-blue-600 transition-colors">Publications</a>
+                    <a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center">
+        <div class="w-full lg:w-1/2 text-center lg:text-left mt-10 lg:mt-0">
+            <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
+                Hi, I'm <span class="gradient-text">Fei Xu</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                Researcher in Materials & Chemical Engineering • AI Algorithm Engineer. <br>
+                Bridging the gap between deep learning optimizations and chemical material synthesis.
+            </p>
+            <div class="flex justify-center lg:justify-start space-x-4 mb-6">
+                <a href="mailto:rootby@126.com" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium shadow-md hover:shadow-lg flex items-center">
+                    <i class="fa-regular fa-envelope mr-2"></i> Get in touch
+                </a>
+                <a href="https://github.com/eyesho" target="_blank" class="px-6 py-3 bg-white text-gray-700 border border-gray-200 rounded-lg hover:bg-gray-50 transition font-medium shadow-sm flex items-center">
+                    <i class="fa-brands fa-github mr-2"></i> GitHub
+                </a>
+            </div>
+            <div class="flex justify-center lg:justify-start space-x-6 text-gray-400">
+                <a href="https://youtube.com/@frederickshyu8819" target="_blank" class="hover:text-red-500 transition-colors text-2xl" title="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://instagram.com/frederickshyu" target="_blank" class="hover:text-pink-500 transition-colors text-2xl" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="w-full lg:w-1/2 flex justify-center">
+            <!-- Simulated avatar layout -->
+            <div class="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gradient-to-tr from-blue-100 to-blue-50 flex items-center justify-center text-blue-200">
+                <img src="profile.jpg" alt="Fei Xu" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12 flex items-center">
+                <i class="fa-solid fa-graduation-cap text-blue-500 mr-3"></i> Education
+            </h2>
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-200 before:to-transparent">
+                
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-100 text-blue-600 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-gray-50 border border-gray-100 shadow-sm card transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Xinjiang University</h3>
+                            <span class="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full mt-2 sm:mt-0">Sep 2023 - Present</span>
+                        </div>
+                        <p class="text-gray-700 font-medium mb-1">M.Eng. candidate, Materials & Chemical Engineering</p>
+                        <p class="text-gray-500 text-sm mb-3">GPA: 3.5/4.0</p>
+                        <div class="text-sm text-gray-600 bg-white p-3 rounded border border-gray-100">
+                            <strong>Supervisor:</strong> Aisha Nulahong (ORCID: <a href="https://orcid.org/0009-0002-1685-4425" class="text-blue-500 hover:underline">0009-0002-1685-4425</a>)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-gray-100 text-gray-500 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-gray-50 border border-gray-100 shadow-sm card transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Univ. of Science and Technology Liaoning</h3>
+                            <span class="text-sm font-medium text-gray-500 px-3 py-1 mt-2 sm:mt-0">Sep 2016 - Jun 2020</span>
+                        </div>
+                        <p class="text-gray-700 font-medium mb-1">B.Eng., Electrical Engineering and Automation</p>
+                        <p class="text-gray-500 text-sm">GPA: 2.46/4.0</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12 flex items-center">
+                <i class="fa-solid fa-briefcase text-blue-500 mr-3"></i> Work Experience
+            </h2>
+            <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 card transition-all duration-300 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none">
+                    <i class="fa-solid fa-robot text-8xl"></i>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 relative z-10">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900">Algorithm Engineer</h3>
+                        <p class="text-lg text-blue-600 font-medium">Zhongjiao Yunzhi Digital Technology Co., Ltd.</p>
+                    </div>
+                    <span class="mt-3 sm:mt-0 px-4 py-1.5 bg-blue-50 text-blue-700 rounded-full text-sm font-semibold border border-blue-100">Apr 2021 - Jun 2022</span>
+                </div>
+                <div class="space-y-4 text-gray-600 relative z-10">
+                    <p class="leading-relaxed"><i class="fa-solid fa-check text-green-500 mr-2"></i><strong>AI R&D Center:</strong> Focused on OCR, LaTeX normalization, automated math solving, and grading structures.</p>
+                    <p class="leading-relaxed"><i class="fa-solid fa-check text-green-500 mr-2"></i><strong>Achievements:</strong> Reached <strong>90%+</strong> accuracy on primary-school multi-step arithmetic grading in production.</p>
+                    <p class="leading-relaxed"><i class="fa-solid fa-award text-yellow-500 mr-2"></i>Awarded <strong>2022 Outstanding Employee</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12 flex items-center">
+                <i class="fa-solid fa-book-open text-blue-500 mr-3"></i> Publications
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Pub 1 -->
+                <div class="bg-gray-50 rounded-xl p-6 border border-gray-100 card hover:border-blue-200 transition-all duration-300">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-xs font-bold px-3 py-1 bg-purple-100 text-purple-700 rounded-full">JCR Q2 (Under Revision)</span>
+                        <span class="text-gray-400 text-sm font-medium">2025</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2 leading-snug">Preparation of Fly-Ash-Based TS-1 Zeolite and Evaluation of Its Co-Catalytic Hydrocracking Performance on Shale Oil and Waste Tire Rubber Powder</h3>
+                    <p class="text-sm text-gray-500 mb-4 font-medium"><span class="text-blue-600">Xu, Fei</span> and others</p>
+                    <p class="text-sm text-gray-600 italic">Journal: Silicon</p>
+                </div>
+                <!-- Pub 2 -->
+                <div class="bg-gray-50 rounded-xl p-6 border border-gray-100 card hover:border-blue-200 transition-all duration-300">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-xs font-bold px-3 py-1 bg-green-100 text-green-700 rounded-full">JCR Q1 (Under Review)</span>
+                        <span class="text-gray-400 text-sm font-medium">2026</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2 leading-snug">Green Synthesis of Bimetallic Supported Y-Type Zeolite and Its Performance Evaluation in Hydrocatalytic Cracking of Waste Tire Rubber</h3>
+                    <p class="text-sm text-gray-500 mb-4 font-medium"><span class="text-blue-600">Xu, Fei</span> and others</p>
+                    <p class="text-sm text-gray-600 italic">Journal: Journal of Analytical and Applied Pyrolysis</p>
+                </div>
+                <!-- Pub 3 -->
+                <div class="bg-gray-50 rounded-xl p-6 border border-gray-100 card hover:border-blue-200 transition-all duration-300 md:col-span-2">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-xs font-bold px-3 py-1 bg-blue-100 text-blue-700 rounded-full">JCR Q2 (Published)</span>
+                        <span class="text-gray-400 text-sm font-medium">2025</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2 leading-snug">Comparative Studies on CO2 Adsorption Performance of Different Morphologies of Silicalite-1 Zeolites Synthesized from Fly Ash</h3>
+                    <p class="text-sm text-gray-500 mb-3 font-medium">Wu, X., Nulahong, A., Tuo, C., Li, J., <span class="text-blue-600">Xu, Fei</span>, Ren, T., Abulizi, A.</p>
+                    <p class="text-sm text-gray-600 italic mb-4">Journal: Silicon (Vol. 17, No. 6, pp. 1273-1288)</p>
+                    <a href="https://doi.org/10.1007/s12633-025-03269-9" target="_blank" class="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square ml-1 text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12 flex items-center">
+                <i class="fa-solid fa-laptop-code text-blue-500 mr-3"></i> Featured Projects
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- Master's Research -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm card flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-700 text-xs font-bold px-2 py-1 rounded">Chemistry / AI</span>
+                            <span class="text-gray-400 text-sm">Sep 2023 - Jan 2026</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Synthesis of Zeolite for Waste Tire Catalytic Hydrocracking</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            Prepared hierarchical Y-type zeolite from coal gangue with transition metal (Ni, Bi) modifications, building a bifunctional catalytic system for waste tire hydrocracking to achieve a <strong>33.94% gasoline yield</strong>.
+                        </p>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                            Optimized the cracking process using a <strong>Transformer surrogate model combined with Genetic Algorithm (GA)</strong> to increase liquid oil yield to <strong>54.00%</strong>, and designed an in-situ sulfur fixation and catalyst recycling system.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- K12 Auto Grading -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm card flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="bg-emerald-100 text-emerald-700 text-xs font-bold px-2 py-1 rounded">Deep Learning / CV</span>
+                            <span class="text-gray-400 text-sm">Apr 2021 - Jun 2022</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">K12 Automated Grading System</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            Primary-school step-by-step arithmetic grading shipped to production with <strong>>90% accuracy</strong>. Handled handwritten math OCR and LaTeX normalization.
+                        </p>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                            Utilized CNN encoder + Transformer decoder with ALiBi positional bias. Implemented a <strong>Dynamic Beam Search</strong> variant that selectively revised lowest-confidence positions, adding +10 accuracy points with minimal latency.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Flowmeter -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm card flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded">Hardware / Embedded</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Oil-Water Two-Phase Flowmeter</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            Used alternating DC excitation to generate a magnetic field. Sampled induced EMF using an AD7175 to estimate flow velocity while canceling common-mode noise.
+                        </p>
+                        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                            Independently delivered the full electronics and firmware/software design (excluding mechanical structure). Leveraged dielectric-constant differences to convert capacitance to frequency for oil/water ratio calibration.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Amap Contest -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm card flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="bg-orange-100 text-orange-700 text-xs font-bold px-2 py-1 rounded">Hackathon</span>
+                            <span class="text-gray-400 text-sm">Jul 2020 - Mar 2021</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Alibaba Amap-Tech Algorithm Contest</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Participated in solving routing and geographic data problems through algorithmic optimization and AI modelling.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Cubic Robot (v2) -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm card flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="bg-purple-100 text-purple-700 text-xs font-bold px-2 py-1 rounded">Robotics / Embedded</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Cubic Robot (v2)</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            Rubik's cube solving robot using Raspberry Pi, OpenCV, and Arduino for scanning and fast physical cube restoration.
+                        </p>
+                        <a href="https://youtube.com/shorts/x02dj_MJooU?si=kljR4ssWXxNHJeAo" target="_blank" class="inline-flex items-center text-sm font-bold text-red-600 hover:text-red-800 transition">
+                            <i class="fa-brands fa-youtube mr-2 text-lg"></i> Watch Video
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Handwriting Calculator -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm card flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="bg-cyan-100 text-cyan-700 text-xs font-bold px-2 py-1 rounded">Computer Vision / NLP</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">CNN-RNN Handwriting Calculator</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            A handwritten mathematical symbol parsing tool utilizing LaTeX conversion and mathematical evaluation powered by SymPy equations.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12 text-center text-gray-400">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-white mb-6 font-serif tracking-wide">Fei Xu</h2>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="mailto:rootby@126.com" class="text-gray-400 hover:text-white transition transform hover:scale-110">
+                    <i class="fa-regular fa-envelope text-xl"></i>
+                    <span class="sr-only">Email</span>
+                </a>
+                <a href="https://github.com/eyesho" target="_blank" class="text-gray-400 hover:text-white transition transform hover:scale-110">
+                    <i class="fa-brands fa-github text-xl"></i>
+                    <span class="sr-only">GitHub</span>
+                </a>
+                <a href="https://youtube.com/@frederickshyu8819" target="_blank" class="text-gray-400 hover:text-red-500 transition transform hover:scale-110">
+                    <i class="fa-brands fa-youtube text-xl"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+                <a href="https://instagram.com/frederickshyu" target="_blank" class="text-gray-400 hover:text-pink-500 transition transform hover:scale-110">
+                    <i class="fa-brands fa-instagram text-xl"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </div>
+            <p class="text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> Fei Xu. All rights reserved. <br>
+                Powered by Tailwind CSS.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
